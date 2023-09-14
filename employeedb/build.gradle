@@ -1,13 +1,14 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
     id 'com.android.application'
 }
 
 android {
-    namespace 'ru.mirea.vorontsovaov.employeedb'
+    namespace 'ru.mirea.kopytina.employeedb'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ru.mirea.vorontsovaov.employeedb"
+        applicationId "ru.mirea.kopytina.employeedb"
         minSdk 26
         targetSdk 33
         versionCode 1

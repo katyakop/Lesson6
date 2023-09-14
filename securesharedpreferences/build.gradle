@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace 'ru.mirea.vorontsovaov.securesharedpreferences'
+    namespace 'ru.mirea.koputina.securesharedpreferences'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ru.mirea.vorontsovaov.securesharedpreferences"
-        minSdk 26
+        applicationId "ru.mirea.koputina.securesharedpreferences"
+        minSdk 33
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -26,7 +26,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
     buildFeatures{
         viewBinding true
     }
@@ -40,6 +39,4 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    implementation "androidx.security:security-crypto:1.0.0"
 }

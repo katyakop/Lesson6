@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace 'ru.mirea.vorontsovaov.lesson6'
+    namespace 'ru.mirea.koputina.lesson6'
     compileSdk 33
 
     defaultConfig {
-        applicationId "ru.mirea.vorontsovaov.lesson6"
-        minSdk 26
+        applicationId "ru.mirea.koputina.lesson6"
+        minSdk 33
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -26,7 +26,6 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-
     buildFeatures{
         viewBinding true
     }
